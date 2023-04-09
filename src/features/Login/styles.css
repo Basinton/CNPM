@@ -1,0 +1,133 @@
+body {
+	background: #1A374D;
+	margin: auto;
+}
+
+#header {
+	background-color: white;
+	height: 80px;
+	line-height: 80px;
+}
+
+#logo {
+	vertical-align: middle;
+	padding-left: 15px;
+}
+
+#UWC {
+	position: absolute;
+	padding-left: 50px;
+	left: 20px;
+	top: -10px;
+	font-family: 'Mplus 1p';
+	font-weight: 800;
+	font-size: 40px;
+	vertical-align: middle;
+	
+	color: #313A27;
+}
+
+#version {
+	position: absolute;
+	padding-left: 135px;
+	left: 20px;
+	top: 0px;
+	font-family: 'Mplus 1p';
+	font-weight: 800;
+	font-size: 40px;
+	vertical-align: middle;
+	
+	color: #E45F2B;
+}
+
+.col {
+    display: grid;
+    grid-auto-flow: column;
+	
+}
+
+.welcome {
+	font-size: 25px;
+    font-weight: bold;
+}
+
+.cse {
+	padding-left: 120px;
+	font-size: 55px;
+    font-weight: bold;
+}
+p {
+	color: white;
+	padding-left: 80px;
+	line-height: 20px;
+	font-size: 20px;
+}
+
+#col-left {
+	float: left;
+	padding-top: 150px;
+}
+
+#col-right {
+	float: right;
+	padding-top: 30px;
+}
+
+form {
+	background-color: white;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px grey;
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 100px;
+	line-height: 30px;
+	font-size: 16px;
+}
+
+.bt {
+	border-radius: 10px;
+	margin-left: 213px;
+}
+
+input[type="text"],
+input[type="password"] {
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	border: solid 1px black;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+input[type="submit"] {
+	background-color:  #D65E5E;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 20px;
+	font-size: 16px;
+	cursor: pointer;
+	width: 170px;
+	margin-left: 165px;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+h1 {
+	font-family: 'Mplus 1p';
+	text-align: center;
+	margin-top: 0;
+}
+
+.err {
+	padding-left: 0;
+	text-align: center;
+	font-family: 'Mplus 1p';
+	font-size: 14px;
+	color:black;
+	color: #6171A9;
+}
